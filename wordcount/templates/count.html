@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Count</title>
+</head>
+<body>
+    <h1>Count</h1>
+    <a href="{% url 'home' %}">Start Again!!!</a>
+    <h2>Original Text:</h2>
+    <br>
+    {{ fulltext }}
+    <br><br>
+    <h2>There are total of {{ num }} words!!!</h2>
+    <br><br>
+    <h2>Word Count</h2>
+
+    {% for word, wordNum  in wordDictionary %}
+        {{ word }}: {{ wordNum }}<br>
+    {% endfor %}
+</body>
+</html>

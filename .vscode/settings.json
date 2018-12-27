@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/home/jay/anaconda3/envs/myDjangoEnv/bin/python",
+    "python.linting.pylintPath": "/home/jay/anaconda3/envs/myDjangoEnv/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ],
+    "python.linting.pylintEnabled": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.linting.enabled": true,
+}
