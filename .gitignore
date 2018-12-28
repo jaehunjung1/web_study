@@ -4,6 +4,12 @@
 *.swp
 *.swn
 
+# Documents #
+*.odt
+*.docx
+*.odt#
+*.docx#
+
 # Directories #
 ###############
 logs/
