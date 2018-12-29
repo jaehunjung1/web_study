@@ -126,7 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static') # this is for "python manage.py colleectstatic"!
 STATICFILES_DIRS = [
-     os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static')
  ]
 
 # Media files
@@ -135,6 +135,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 try:
-    from local_settings import *
+    from .local_settings import *
+    print("importing local settings done")
 except ImportError:
     pass
