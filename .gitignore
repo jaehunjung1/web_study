@@ -4,6 +4,12 @@
 *.swp
 *.swn
 
+# Static Resource Files #
+*.jpeg
+*.jpg
+*.png
+*.pdf
+
 # Documents #
 *.odt
 *.docx
@@ -13,8 +19,6 @@
 # Directories #
 ###############
 logs/
-!/static/*
-!/media/*
 
 # Specific files #
 ##################
