@@ -13,8 +13,8 @@
 # Directories #
 ###############
 logs/
-/static
-/media
+!/static/*
+!/media/*
 
 # Specific files #
 ##################
